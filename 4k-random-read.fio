@@ -1,0 +1,10 @@
+[4k-random-read]
+ioengine=posixaio
+rw=randread
+bs=4k
+iodepth=1
+numjobs=1
+size=2g
+end_fsync=1
+runtime=60
+time_based=1
