@@ -1,0 +1,10 @@
+[1m-sequential-write]
+ioengine=posixaio
+rw=write
+bs=1m
+iodepth=1
+numjobs=1
+size=2g
+end_fsync=1
+runtime=60
+time_based=1
